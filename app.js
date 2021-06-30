@@ -15,18 +15,18 @@ controler.insertAdjacentHTML(
   "afterbegin",
   `
     <div class="row">
-         <button type="button" class="btn btn-outline-primary" onclick="topArrow()" >Up</button>
+         <button type="button" class="btn btn-outline-warning" onclick="topArrow()" >Up</button>
     </div>
-    <div class="row">
-         <div class="col">   
-            <button type="button" class="btn btn-outline-primary" onclick="leftArrow()" >Left</button>
+    <div class="row justify-content-start">
+         <div class="col-6"> 
+            <button type="button" class="btn btn-outline-warning" onclick="leftArrow()" >Left</button>
          </div>
-        <div class="col">
-           <button type="button" class="btn btn-outline-primary" onclick="rightArrow()" >Right</button>
+        <div class="col-8">
+           <button type="button" class="btn btn-outline-warning" onclick="rightArrow()" >Right</button>
         </div>
     </div>
-    <div class="col">
-         <button type="button" class="btn btn-outline-primary" onclick="downArrow()" >Down</button>
+    <div class="row">
+         <button type="button" class="btn btn-outline-warning" onclick="downArrow()" >Down</button>
     </div>
 `
 );

@@ -6,7 +6,7 @@
   font-size: 20px;
 }
 .gameFloor {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(51, 49, 49);
   border: 6px solid black;
   height: 500px;
 }
@@ -19,4 +19,7 @@
   width: 20px;
   height: 20px;
   transition: all 2s;
+}
+body {
+  background-color: rgb(39, 33, 33);
 }
